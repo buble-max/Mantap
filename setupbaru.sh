@@ -1,5 +1,5 @@
 #!/bin/bash
-#auto installer Bye HideSSH
+#auto installer Bye Rifki
 # Credit 2022
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
