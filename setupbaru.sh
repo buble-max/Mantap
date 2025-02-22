@@ -21,25 +21,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh"
+akbarvpn="raw.githubusercontent.com/buble-max/Mantap/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/sstp"
+akbarvpnn="raw.githubusercontent.com/buble-max/Mantap/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssr"
+akbarvpnnn="raw.githubusercontent.com/buble-max/Mantap/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/buble-max/Mantap/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/buble-max/Mantap/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/buble-max/Mantap/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/buble-max/Mantap/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/buble-max/Mantap/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/buble-max/Mantap/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/buble-max/Mantap/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -53,19 +53,19 @@ exit 0
 fi
 mkdir /var/lib/crot;
 echo "IP=" >> /var/lib/crot/ipvps.conf
-#wget https://${akbarvpn}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
+wget https://${akbarvpn}/slhost.sh && chmod +x slhost.sh && ./slhost.sh
 
 #install xray
 wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 
 #install ssh ovpn
-#wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-#wget https://${akbarvpnn}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://${akbarvpnn}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 
 wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/ssh/hide-ssh.sh && chmod +x hide-ssh.sh && screen -S hide-ssh.sh ./hide-ssh.sh
 
 #install ssr
-#wget https://${akbarvpnnn}/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://${akbarvpnnn}/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 wget https://${akbarvpnnnn}/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 
 #installwg
@@ -76,7 +76,7 @@ wget https://${akbarvpnnnnnnn}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec 
 #wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 # Websocket
-wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/websocket/hide-websocket.sh && chmod +x hide-websocket.sh && ./hide-websocket.sh
+wget https://raw.githubusercontent.com/buble-max/Mantap/main/websocket/hide-websocket.sh && chmod +x hide-websocket.sh && ./hide-websocket.sh
 
 # Ohp Server
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
@@ -97,22 +97,22 @@ chmod +x /usr/local/bin/stdev-l2tp-remove-user
 
 cd
 # Install SlowDNS
-wget https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+wget https://raw.githubusercontent.com/buble-max/Mantap/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 
 #tambahan package wireguard
 wget -O install-wireguard "https://www.dropbox.com/s/p89ubjpypmk26rv/install-wireguard?dl=1" && chmod +x install-wireguard && ./install-wireguard
 
 
 # Informasi IP Saya dan Semua Port TCP UDP
-# wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/ipsaya.sh && chmod +x ipsaya.sh
+ wget https://raw.githubusercontent.com/buble-max/Mantap/main/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray sl-grpc
-#wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+wget https://raw.githubusercontent.com/buble-max/Mantap/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-#wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+wget https://raw.githubusercontent.com/buble-max/Mantap/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 
 # install shadowsocks plugin
-#wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
+wget https://raw.githubusercontent.com/buble-max/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
  
 
 rm -f /root/ssh-vpn.sh
