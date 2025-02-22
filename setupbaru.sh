@@ -107,9 +107,9 @@ wget -O install-wireguard "https://www.dropbox.com/s/p89ubjpypmk26rv/install-wir
  wget https://raw.githubusercontent.com/buble-max/Mantap/main/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray sl-grpc
-wget https://raw.githubusercontent.com/buble-max/Mantap/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+#wget https://raw.githubusercontent.com/buble-max/Mantap/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-wget https://raw.githubusercontent.com/buble-max/Mantap/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+#wget https://raw.githubusercontent.com/buble-max/Mantap/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 
 # install shadowsocks plugin
 wget https://raw.githubusercontent.com/buble-max/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
