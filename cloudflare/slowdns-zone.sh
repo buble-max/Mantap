@@ -15,7 +15,7 @@ read -rp "Masukkan Subdomain: " -e sub
 SUB_DOMAIN=${sub}.${DOMAIN}
 NS_DOMAIN=slowdns-${sub}
 CF_ID=rifkiibul@gmail.com
-CF_KEY=Jfnu2QCMuXQlBs2m9jG1NeUpHdcTlnnbEDvHwICm
+CF_KEY=806c6bcb3c7094dffe67e8a7e8ebcf1a2271d
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
