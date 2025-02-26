@@ -1,7 +1,7 @@
 #!/bin/sh
 #CF ZONE NYA BELUM DI GANTI
 DOMAIN=bot.rifkimaulana.me
-CF_ID=info@rifkimaulana.me
+CF_ID=rifkiibul@gmail.com
 CF_KEY=806c6bcb3c7094dffe67e8a7e8ebcf1a2271d
 CF_ZONE=695a6007808a2b1a03e505235e5f4dd9
 SSL_ID=ssl@rifkimaulana.me

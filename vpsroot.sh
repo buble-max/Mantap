@@ -1,6 +1,6 @@
 #!/bin/bash
 # Mod By Rifki
-wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sshd_config;
+wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/buble-max/Mantap/main/sshd_config;
 systemctl restart sshd;
 clear;
 echo -e "Masukkan Password:";

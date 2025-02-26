@@ -2,8 +2,8 @@
 #auto installer Bye HideSSH
 
 mkdir /data
-wget -O /data/tls.pem "https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/vmess/certi.pem"
-wget -O /data/tls.key "https://raw.githubusercontent.com/hidessh99/sulaimanl-Mnatap/main/vmess/certi.key"
+wget -O /data/tls.pem "https://raw.githubusercontent.com/buble-max/Mantap/main/vmess/certi.pem"
+wget -O /data/tls.key "https://raw.githubusercontent.com/buble-max/Mantap/main/vmess/certi.key"
 
 
 cd

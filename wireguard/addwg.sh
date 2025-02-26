@@ -63,7 +63,7 @@ fi
 # Google DNS by default
 CLIENT_DNS_1="8.8.8.8"
 
-CLIENT_DNS_2="8.8.4.4"
+CLIENT_DNS_2="1.1.1.1"
 MYIP=$(wget -qO- ifconfig.co);
 read -p "Expired (Days) : " masaaktif
 hariini=`date -d "0 days" +"%Y-%m-%d"`
@@ -113,5 +113,5 @@ echo -e "Expired  : $exp"
 echo -e "======================="
 echo -e "Link WG  : http://$MYIP:89/$CLIENT_NAME.conf"
 echo -e "======================="
-echo -e "Script Mod By SL"
+echo -e "Script Mod By Massbrow"
 rm -f /root/wg0-client-$CLIENT_NAME.conf

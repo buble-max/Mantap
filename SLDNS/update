@@ -37,7 +37,7 @@ echo ""
 echo -e "   \033[0;36mREMOVING OLD FILES...\033[0m"
 echo ""
 fun_remove () {
-rm -rf remove-slow; wget https://raw.githubusercontent.com/buble-max/dnstt/main/remove-slow && chmod +x remove-slow && bash remove-slow
+rm -rf remove-slow; wget https://raw.githubusercontent.com/buble-max/Mantap/SLDNS/main/remove-slow && chmod +x remove-slow && bash remove-slow
 sleep 2
 rm -rf /bin/slowdns && rm /root/remove-slow
 sleep 2

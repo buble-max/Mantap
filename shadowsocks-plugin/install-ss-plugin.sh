@@ -17,11 +17,11 @@ mkdir -p /usr/local/bin/
 mkdir -p /etc/shadowsocks
 rm -rf /usr/bin/shadowhost
 cd /usr/bin
-wget -O addss-p "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/addss-p.sh"
+wget -O addss-p "https://raw.githubusercontent.com/buble-max/Mantap/main/shadowsocks-plugin/addss-p.sh"
 chmod +x addss-p
-wget -O shadowhost "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/shadowhost.sh"
+wget -O shadowhost "https://raw.githubusercontent.com/buble-max/Mantap/main/shadowsocks-plugin/shadowhost.sh"
 chmod +x shadowhost && shadowhost
-wget -O delss "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks/delss.sh"
+wget -O delss "https://raw.githubusercontent.com/buble-max/Mantap/main/shadowsocks/delss.sh"
 cd
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
@@ -103,7 +103,7 @@ wget -O acme.sh https://raw.githubusercontent.com/acmesh-official/acme.sh/master
 bash acme.sh --install
 rm acme.sh
 cd .acme.sh
-bash acme.sh --register-account -m slinfinity69@gmail.com
+bash acme.sh --register-account -m rifkiibul@gmail.com
 bash acme.sh --issue --standalone -d $domain --force
 bash acme.sh --installcert -d $domain --fullchainpath /etc/shadowsocks/xray.crt --keypath /etc/shadowsocks/xray.key
 
